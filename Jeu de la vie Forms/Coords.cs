@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jeu_de_la_vie
+namespace Jeu_de_la_vie_Forms
 {
     public struct Coords
     {

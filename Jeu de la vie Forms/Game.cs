@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace Jeu_de_la_vie
+namespace Jeu_de_la_vie_Forms
 {
     public class Game
     {
@@ -25,7 +26,7 @@ namespace Jeu_de_la_vie
         {
             grid.DisplayGrid();
 
-            for (int i = 0; i < iter; i++)
+            for (int i = 0; i < Form1.generation; i++)
             {
                 grid.UpdateGrid();
                 grid.DisplayGrid();
